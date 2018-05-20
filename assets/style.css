@@ -1,0 +1,164 @@
+  body {
+    font-family: 'Kavivanar', cursive;
+    /* font-family: 'Poiret One', cursive; */
+  }
+  
+  #wrapper {
+    background: url(background-1.svg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  
+  header {
+    background: #5e6482;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #timeline {
+    background: url(line.png) repeat-y 50% 0;
+    min-height: 700px;
+    margin: 20px 0;
+  }
+  
+  .tl-block {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .tl-year {
+    background: url(point-large.png) no-repeat 50% 0;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .tl-year div {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding-top: 23px;
+    text-align: center;
+  }
+  
+  .tl-event {
+    background: url(point-small.png) no-repeat top center;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    visibility: visible;
+  }
+  
+  .tl-event>div {
+    width: 45%;
+    position: relative;
+  }
+  
+  .tl-event div div {
+    background: #fff;
+    border-radius: 10%;
+    padding: 15px;
+  }
+  
+  .tl-event div.event-r {
+    float: right;
+    background: url(arrow-left.png) no-repeat 0 0;
+  }
+  
+  .tl-event div.event-l {
+    float: left;
+    background: url(arrow-right.png) no-repeat top right;
+  }
+  
+  .tl-event div.event-r div {
+    margin-left: 50px;
+  }
+  
+  .tl-event div.event-l div {
+    margin-right: 50px
+  }
+  
+  .tl-event time {
+    background: #7CD0D0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .tl-block div div.left {
+    background-color: #E8F5D7;
+    border: solid white 2px;
+  }
+  
+  .tl-block div div.right {
+    background-color: #9FEDF1;
+    border: solid white 2px;
+  }
+  
+  .yellow {
+    background-color: #E8F5D7;
+  }
+  
+  .green {
+    background-color: #9FEDF1;
+  }
+  
+  a {
+    color: purple;
+    margin: auto;
+    padding-left: 2px;
+  }
+  
+  a:hover {
+    color: red;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: pink;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto 2px;
+  }
+  
+  footer {
+    background: #5e6482;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
